@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.net.URL?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ButtonBar?>
 <?import javafx.scene.control.Label?>
@@ -9,7 +10,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane styleClass="background" stylesheets="@view/DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane styleClass="background" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <GridPane prefHeight="202.0" prefWidth="379.0">
         <columnConstraints>
@@ -41,9 +42,13 @@
       </GridPane>
       <ButtonBar layoutX="179.0" layoutY="220.0" prefHeight="40.0" prefWidth="200.0">
         <buttons>
-            <Button defaultButton="true" minWidth="57.0" mnemonicParsing="false" prefHeight="31.0" text="OK" />
-            <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="113.0" text="Cancel" />
+            <Button defaultButton="true" minWidth="57.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="116.0" text="OK" />
+            <Button alignment="CENTER_RIGHT" mnemonicParsing="false" prefHeight="31.0" prefWidth="113.0" text="Cancel" />
         </buttons>
       </ButtonBar>
    </children>
+   <stylesheets>
+      <URL value="@view/DarkTheme.css" />
+      <URL value="@DarkTheme.css" />
+   </stylesheets>
 </AnchorPane>

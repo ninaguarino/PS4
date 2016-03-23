@@ -17,6 +17,7 @@ import ch.makery.address.MainApp;
  */
 public class RootLayoutController {
 
+
     // Reference to the main application
     private MainApp mainApp;
 

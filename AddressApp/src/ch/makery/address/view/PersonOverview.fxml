@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane prefHeight="216.0" prefWidth="676.0" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.PersonOverviewController">
+<AnchorPane prefHeight="300.0" prefWidth="600.0" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.PersonOverviewController">
    <children>
       <AnchorPane prefHeight="300.0" prefWidth="600.0" />
       <SplitPane dividerPositions="0.29797979797979796" prefHeight="300.0" prefWidth="694.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-94.0" AnchorPane.topAnchor="0.0">
@@ -63,7 +63,7 @@
                   <Button layoutX="282.0" layoutY="259.0" minWidth="50.0" mnemonicParsing="false" onAction="#handleEditPerson" prefHeight="31.0" text="Edit.." />
                   <Button layoutX="374.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleDeletePerson" prefHeight="31.0" prefWidth="97.0" text="Delete" />
                 <Button layoutX="192.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleNewPerson" prefHeight="31.0" prefWidth="81.0" text="New" />
-                  <Label layoutY="-11.0" prefHeight="31.0" prefWidth="313.0" styleClass="label-header" text="Person Details" />
+                  <Label layoutX="5.0" layoutY="-11.0" prefHeight="17.0" prefWidth="281.0" styleClass="label-header" text="Person Details" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="-11.0" />
                </children>
             </AnchorPane>
         </items>
